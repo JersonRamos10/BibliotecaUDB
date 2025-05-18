@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="java01">
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/pruebas/PruebasModuloUsuario.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/dao/biblioteca/impl/PoliticasPrestamosDAOImpl.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/modelo/biblioteca/PoliticasPrestamo.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/gui/AgregarUsuario.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/dao/biblioteca/impl/DocumentoDAOImpl.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/servicios/impl/UsuarioServiceImpl.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/servicios/BibliotecaService.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/gui/LoginForm.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/modelo/biblioteca/Prestamo.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/pruebas/PruebasBibliotecaService.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/modelo/biblioteca/MoraAnual.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/gui/Configuraciones.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/conexion/config.properties</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/modelo/usuario/TipoUsuario.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/dao/usuario/impl/UsuarioDAOImpl.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/dao/biblioteca/impl/PrestamoDAOImpl.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/dao/biblioteca/TipoDocumentoDAO.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/log4j.properties</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/gui/InicioAdministrador.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/gui/InicioDocente.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/modelo/biblioteca/Devolucion.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/dao/usuario/impl/TipoUsuarioDAOImpl.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/dao/biblioteca/EjemplarDAO.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/gui/InicioAlumno.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/modelo/biblioteca/TipoDocumento.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/dao/biblioteca/PrestamoDAO.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/dao/biblioteca/PoliticasPrestamoDAO.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/pruebas/PruebaConexionBD.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/dao/biblioteca/impl/ConfiguracionSistemaDAOImpl.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/gui/RegistroDocumentos.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/dao/biblioteca/DevolucionDAO.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/modelo/usuario/Usuario.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/dao/biblioteca/impl/TipoDocumentoDAOImpl.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/dao/biblioteca/MoraAnualDAO.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/conexion/LogsError.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/servicios/impl/MoraServiceImpl.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/gui/Devoluciones.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/dao/usuario/UsuarioDAO.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/servicios/UsuarioService.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/servicios/impl/BibliotecaServiceImpl.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/imagenes/loginIcono.png</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/build.xml</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/dao/biblioteca/impl/MoraAnualDAOImpl.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/dao/biblioteca/impl/DevolucionDAOImpl.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/dao/biblioteca/impl/EjemplarDAOImpl.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/modelo/biblioteca/Ejemplar.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/pruebas/PruebasUsuarioService.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/excepciones/UsuarioException.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/servicios/MoraService.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/dao/usuario/TipoUsuarioDAO.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/gui/Ejemplares.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/conexion/ConexionBD.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/dao/biblioteca/ConfiguracionSistemaDAO.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/excepciones/BibliotecaException.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/BibliotecaUDB.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/gui/Documentos.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/dao/biblioteca/DocumentoDAO.java</file>
+            <file>file:/C:/Users/MY%20PC/Desktop/Biblioteca_Don_bosco/logica-negocio/BibliotecaUDB/src/bibliotecaudb/modelo/biblioteca/ConfiguracionSistema.java</file>
+        </group>
+    </open-files>
+</project-private>

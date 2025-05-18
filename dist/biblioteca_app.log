@@ -1,0 +1,268 @@
+2025-05-17 17:16:30 [AWT-EventQueue-0] INFO  bibliotecaudb.gui.LoginForm - Intento de login para usuario: norma@udb.com
+2025-05-17 17:16:30 [AWT-EventQueue-0] INFO  bibliotecaudb.conexion.ConexionBD - Configuracion de BD cargada.
+2025-05-17 17:16:31 [AWT-EventQueue-0] INFO  bibliotecaudb.conexion.ConexionBD - Intentando conectar a BD: jdbc:mysql://localhost:3306/biblioteca
+2025-05-17 17:16:31 [AWT-EventQueue-0] INFO  bibliotecaudb.conexion.ConexionBD - Conexion establecida exitosamente.
+2025-05-17 17:16:31 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.UsuarioDAOImpl - Ejecutando consulta de login para correo: norma@udb.com
+2025-05-17 17:16:31 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.UsuarioDAOImpl - Login exitoso para: norma@udb.com, Usuario: Norma, Tipo: Administrador
+2025-05-17 17:16:31 [AWT-EventQueue-0] INFO  bibliotecaudb.servicios.impl.UsuarioServiceImpl - Usuario autenticado: norma@udb.com, Tipo: Administrador
+2025-05-17 17:16:32 [AWT-EventQueue-0] INFO  bibliotecaudb.gui.LoginForm - Login exitoso para: norma@udb.com, Tipo: Administrador
+2025-05-17 17:16:32 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.UsuarioDAOImpl - Ejecutando consulta para obtener todos los usuarios: SELECT id, nombre, correo, contrasena, id_tipo_usuario, estado FROM usuarios ORDER BY nombre
+2025-05-17 17:16:32 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 1
+2025-05-17 17:16:32 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 3
+2025-05-17 17:16:32 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 3
+2025-05-17 17:16:32 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 1
+2025-05-17 17:16:32 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 2
+2025-05-17 17:16:32 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 2
+2025-05-17 17:16:32 [AWT-EventQueue-0] INFO  bibliotecaudb.gui.InicioAdministrador - Ventana InicioAdministrador gano foco, refrescando tabla.
+2025-05-17 17:16:32 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.UsuarioDAOImpl - Ejecutando consulta para obtener todos los usuarios: SELECT id, nombre, correo, contrasena, id_tipo_usuario, estado FROM usuarios ORDER BY nombre
+2025-05-17 17:16:33 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 1
+2025-05-17 17:16:33 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 3
+2025-05-17 17:16:33 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 3
+2025-05-17 17:16:33 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 1
+2025-05-17 17:16:33 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 2
+2025-05-17 17:16:33 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 2
+2025-05-17 17:16:36 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.UsuarioDAOImpl - Ejecutando consulta para obtener todos los usuarios: SELECT id, nombre, correo, contrasena, id_tipo_usuario, estado FROM usuarios ORDER BY nombre
+2025-05-17 17:16:36 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 1
+2025-05-17 17:16:36 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 3
+2025-05-17 17:16:36 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 3
+2025-05-17 17:16:36 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 1
+2025-05-17 17:16:36 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 2
+2025-05-17 17:16:36 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 2
+2025-05-17 17:16:36 [AWT-EventQueue-0] INFO  bibliotecaudb.gui.InicioAdministrador - Tabla de usuarios refrescada manualmente.
+2025-05-17 17:16:39 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.ConfiguracionSistemaDAOImpl - Ejecutando consulta para obtener configuracion: SELECT id, maximo_ejemplares, mora_diaria FROM configuracion_sistema WHERE id = 1
+2025-05-17 17:16:39 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener todos los tipos de usuario: SELECT id, tipo FROM tipo_usuario ORDER BY id
+2025-05-17 17:16:39 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.PoliticasPrestamosDAOImpl - Ejecutando consulta para obtener todas las politicas: SELECT id_politica, id_tipo_usuario, max_ejemplares_prestamo, dias_prestamo_default FROM politicas_prestamo ORDER BY id_tipo_usuario
+2025-05-17 17:16:39 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 1
+2025-05-17 17:16:39 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 2
+2025-05-17 17:16:39 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 3
+2025-05-17 17:19:20 [AWT-EventQueue-0] INFO  bibliotecaudb.gui.InicioAdministrador - Ventana InicioAdministrador gano foco, refrescando tabla.
+2025-05-17 17:19:20 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.UsuarioDAOImpl - Ejecutando consulta para obtener todos los usuarios: SELECT id, nombre, correo, contrasena, id_tipo_usuario, estado FROM usuarios ORDER BY nombre
+2025-05-17 17:19:20 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 1
+2025-05-17 17:19:20 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 3
+2025-05-17 17:19:20 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 3
+2025-05-17 17:19:20 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 1
+2025-05-17 17:19:20 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 2
+2025-05-17 17:19:20 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 2
+2025-05-17 17:19:21 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener todos los tipos de usuario: SELECT id, tipo FROM tipo_usuario ORDER BY id
+2025-05-17 17:19:34 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por nombre: SELECT id, tipo FROM tipo_usuario WHERE tipo = ? con nombre: Alumno
+2025-05-17 17:19:34 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 3
+2025-05-17 17:19:34 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.UsuarioDAOImpl - Ejecutando consulta para obtener usuario por correo: SELECT id, nombre, correo, contrasena, id_tipo_usuario, estado FROM usuarios WHERE correo = ? para correo: mundo@asd
+2025-05-17 17:19:34 [AWT-EventQueue-0] INFO  bibliotecaudb.servicios.impl.UsuarioServiceImpl - Registrando nuevo usuario: mundo@asd
+2025-05-17 17:19:34 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.UsuarioDAOImpl - Ejecutando consulta para insertar usuario: INSERT INTO usuarios (nombre, correo, contrasena, id_tipo_usuario, estado) VALUES (?, ?, ?, ?, ?)
+2025-05-17 17:19:34 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.UsuarioDAOImpl - Usuario insertado con ID: 16. Filas afectadas: 1
+2025-05-17 17:19:34 [AWT-EventQueue-0] INFO  bibliotecaudb.gui.AgregarUsuario - Usuario 'hola' registrado por norma@udb.com
+2025-05-17 17:19:35 [AWT-EventQueue-0] INFO  bibliotecaudb.gui.InicioAdministrador - Ventana InicioAdministrador gano foco, refrescando tabla.
+2025-05-17 17:19:35 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.UsuarioDAOImpl - Ejecutando consulta para obtener todos los usuarios: SELECT id, nombre, correo, contrasena, id_tipo_usuario, estado FROM usuarios ORDER BY nombre
+2025-05-17 17:19:35 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 1
+2025-05-17 17:19:35 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 3
+2025-05-17 17:19:35 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 3
+2025-05-17 17:19:35 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 3
+2025-05-17 17:19:35 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 1
+2025-05-17 17:19:35 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 2
+2025-05-17 17:19:35 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 2
+2025-05-17 17:19:47 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.UsuarioDAOImpl - Ejecutando consulta para obtener usuario por ID: SELECT id, nombre, correo, contrasena, id_tipo_usuario, estado FROM usuarios WHERE id = ? para ID: 16
+2025-05-17 17:19:47 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 3
+2025-05-17 17:19:47 [AWT-EventQueue-0] INFO  bibliotecaudb.servicios.impl.UsuarioServiceImpl - Intentando eliminar usuario ID: 16 por actor: norma@udb.com
+2025-05-17 17:19:47 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.UsuarioDAOImpl - Ejecutando consulta para eliminar usuario: DELETE FROM usuarios WHERE id = ? para ID: 16
+2025-05-17 17:19:47 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.UsuarioDAOImpl - Usuario eliminado. Filas afectadas: 1
+2025-05-17 17:19:47 [AWT-EventQueue-0] INFO  bibliotecaudb.gui.InicioAdministrador - Usuario ID: 16 eliminado por norma@udb.com
+2025-05-17 17:19:47 [AWT-EventQueue-0] INFO  bibliotecaudb.gui.InicioAdministrador - Ventana InicioAdministrador gano foco, refrescando tabla.
+2025-05-17 17:19:47 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.UsuarioDAOImpl - Ejecutando consulta para obtener todos los usuarios: SELECT id, nombre, correo, contrasena, id_tipo_usuario, estado FROM usuarios ORDER BY nombre
+2025-05-17 17:19:47 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 1
+2025-05-17 17:19:47 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 3
+2025-05-17 17:19:47 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 3
+2025-05-17 17:19:47 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 1
+2025-05-17 17:19:47 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 2
+2025-05-17 17:19:47 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 2
+2025-05-17 17:19:48 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.UsuarioDAOImpl - Ejecutando consulta para obtener todos los usuarios: SELECT id, nombre, correo, contrasena, id_tipo_usuario, estado FROM usuarios ORDER BY nombre
+2025-05-17 17:19:48 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 1
+2025-05-17 17:19:48 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 3
+2025-05-17 17:19:48 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 3
+2025-05-17 17:19:48 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 1
+2025-05-17 17:19:48 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 2
+2025-05-17 17:19:48 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 2
+2025-05-17 17:19:48 [AWT-EventQueue-0] INFO  bibliotecaudb.gui.InicioAdministrador - Ventana InicioAdministrador gano foco, refrescando tabla.
+2025-05-17 17:19:48 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.UsuarioDAOImpl - Ejecutando consulta para obtener todos los usuarios: SELECT id, nombre, correo, contrasena, id_tipo_usuario, estado FROM usuarios ORDER BY nombre
+2025-05-17 17:19:48 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 1
+2025-05-17 17:19:48 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 3
+2025-05-17 17:19:48 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 3
+2025-05-17 17:19:48 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 1
+2025-05-17 17:19:48 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 2
+2025-05-17 17:19:48 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 2
+2025-05-17 17:20:26 [AWT-EventQueue-0] INFO  bibliotecaudb.gui.InicioAdministrador - Usuario norma@udb.com saliendo del panel de administrador.
+2025-05-17 17:20:41 [AWT-EventQueue-0] INFO  bibliotecaudb.gui.LoginForm - Intento de login para usuario: sandra@udb.com
+2025-05-17 17:20:41 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.UsuarioDAOImpl - Ejecutando consulta de login para correo: sandra@udb.com
+2025-05-17 17:20:41 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.UsuarioDAOImpl - Login exitoso para: sandra@udb.com, Usuario: Sandra, Tipo: Profesor
+2025-05-17 17:20:41 [AWT-EventQueue-0] INFO  bibliotecaudb.servicios.impl.UsuarioServiceImpl - Usuario autenticado: sandra@udb.com, Tipo: Profesor
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.gui.LoginForm - Login exitoso para: sandra@udb.com, Tipo: Profesor
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener todos los documentos: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos ORDER BY titulo
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 5
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 6
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 1
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 1
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 1
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 3
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 2
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 4
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 5
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 5
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.EjemplarDAOImpl - Ejecutando consulta para obtener ejemplares por idDocumento: SELECT id, id_documento, ubicacion, estado FROM ejemplares WHERE id_documento = ? ORDER BY id para idDocumento: 5
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 5
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 5
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 6
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 6
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.EjemplarDAOImpl - Ejecutando consulta para obtener ejemplares por idDocumento: SELECT id, id_documento, ubicacion, estado FROM ejemplares WHERE id_documento = ? ORDER BY id para idDocumento: 6
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 6
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 6
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 7
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 1
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.EjemplarDAOImpl - Ejecutando consulta para obtener ejemplares por idDocumento: SELECT id, id_documento, ubicacion, estado FROM ejemplares WHERE id_documento = ? ORDER BY id para idDocumento: 7
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 7
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 1
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 8
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 1
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.EjemplarDAOImpl - Ejecutando consulta para obtener ejemplares por idDocumento: SELECT id, id_documento, ubicacion, estado FROM ejemplares WHERE id_documento = ? ORDER BY id para idDocumento: 8
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 8
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 1
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 1
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 1
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.EjemplarDAOImpl - Ejecutando consulta para obtener ejemplares por idDocumento: SELECT id, id_documento, ubicacion, estado FROM ejemplares WHERE id_documento = ? ORDER BY id para idDocumento: 1
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 1
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 1
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 1
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 1
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 4
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 3
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.EjemplarDAOImpl - Ejecutando consulta para obtener ejemplares por idDocumento: SELECT id, id_documento, ubicacion, estado FROM ejemplares WHERE id_documento = ? ORDER BY id para idDocumento: 4
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 4
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 3
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 4
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 3
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 2
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 2
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.EjemplarDAOImpl - Ejecutando consulta para obtener ejemplares por idDocumento: SELECT id, id_documento, ubicacion, estado FROM ejemplares WHERE id_documento = ? ORDER BY id para idDocumento: 2
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 2
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 2
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 3
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 4
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.EjemplarDAOImpl - Ejecutando consulta para obtener ejemplares por idDocumento: SELECT id, id_documento, ubicacion, estado FROM ejemplares WHERE id_documento = ? ORDER BY id para idDocumento: 3
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 3
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 4
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 3
+2025-05-17 17:20:42 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 4
+2025-05-17 17:20:49 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 6
+2025-05-17 17:20:49 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 6
+2025-05-17 17:20:49 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.EjemplarDAOImpl - Ejecutando consulta para obtener ejemplares por idDocumento: SELECT id, id_documento, ubicacion, estado FROM ejemplares WHERE id_documento = ? ORDER BY id para idDocumento: 6
+2025-05-17 17:20:49 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 6
+2025-05-17 17:20:49 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 6
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.gui.InicioDocente - Docente sandra@udb.com abriendo gestion de documentos.
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener todos los documentos: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos ORDER BY titulo
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 5
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 6
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 1
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 1
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 1
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 3
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 2
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 4
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 5
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 5
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.EjemplarDAOImpl - Ejecutando consulta para obtener ejemplares por idDocumento: SELECT id, id_documento, ubicacion, estado FROM ejemplares WHERE id_documento = ? ORDER BY id para idDocumento: 5
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 5
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 5
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 6
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 6
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.EjemplarDAOImpl - Ejecutando consulta para obtener ejemplares por idDocumento: SELECT id, id_documento, ubicacion, estado FROM ejemplares WHERE id_documento = ? ORDER BY id para idDocumento: 6
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 6
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 6
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 7
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 1
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.EjemplarDAOImpl - Ejecutando consulta para obtener ejemplares por idDocumento: SELECT id, id_documento, ubicacion, estado FROM ejemplares WHERE id_documento = ? ORDER BY id para idDocumento: 7
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 7
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 1
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 8
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 1
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.EjemplarDAOImpl - Ejecutando consulta para obtener ejemplares por idDocumento: SELECT id, id_documento, ubicacion, estado FROM ejemplares WHERE id_documento = ? ORDER BY id para idDocumento: 8
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 8
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 1
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 1
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 1
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.EjemplarDAOImpl - Ejecutando consulta para obtener ejemplares por idDocumento: SELECT id, id_documento, ubicacion, estado FROM ejemplares WHERE id_documento = ? ORDER BY id para idDocumento: 1
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 1
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 1
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 1
+2025-05-17 17:21:13 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 1
+2025-05-17 17:21:14 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 4
+2025-05-17 17:21:14 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 3
+2025-05-17 17:21:14 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.EjemplarDAOImpl - Ejecutando consulta para obtener ejemplares por idDocumento: SELECT id, id_documento, ubicacion, estado FROM ejemplares WHERE id_documento = ? ORDER BY id para idDocumento: 4
+2025-05-17 17:21:14 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 4
+2025-05-17 17:21:14 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 3
+2025-05-17 17:21:14 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 4
+2025-05-17 17:21:14 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 3
+2025-05-17 17:21:14 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 2
+2025-05-17 17:21:14 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 2
+2025-05-17 17:21:14 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.EjemplarDAOImpl - Ejecutando consulta para obtener ejemplares por idDocumento: SELECT id, id_documento, ubicacion, estado FROM ejemplares WHERE id_documento = ? ORDER BY id para idDocumento: 2
+2025-05-17 17:21:14 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 2
+2025-05-17 17:21:14 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 2
+2025-05-17 17:21:14 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 3
+2025-05-17 17:21:14 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 4
+2025-05-17 17:21:14 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.EjemplarDAOImpl - Ejecutando consulta para obtener ejemplares por idDocumento: SELECT id, id_documento, ubicacion, estado FROM ejemplares WHERE id_documento = ? ORDER BY id para idDocumento: 3
+2025-05-17 17:21:14 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 3
+2025-05-17 17:21:14 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 4
+2025-05-17 17:21:14 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 3
+2025-05-17 17:21:14 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 4
+2025-05-17 17:21:32 [AWT-EventQueue-0] INFO  bibliotecaudb.gui.Documentos - Abriendo formulario de registro de nuevo documento por: sandra@udb.com
+2025-05-17 17:21:33 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener todos los tipos de documento: SELECT id, tipo FROM tipo_documento ORDER BY tipo
+2025-05-17 17:22:06 [AWT-EventQueue-0] INFO  bibliotecaudb.gui.InicioDocente - Docente sandra@udb.com abriendo ventana de prestamos para ejemplar ID: 8
+2025-05-17 17:22:41 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.UsuarioDAOImpl - Ejecutando consulta para obtener usuario por ID: SELECT id, nombre, correo, contrasena, id_tipo_usuario, estado FROM usuarios WHERE id = ? para ID: 3
+2025-05-17 17:22:41 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 3
+2025-05-17 17:22:41 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.EjemplarDAOImpl - Ejecutando consulta para obtener ejemplar por ID: SELECT id, id_documento, ubicacion, estado FROM ejemplares WHERE id = ? con ID: 8
+2025-05-17 17:22:41 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.DocumentoDAOImpl - Ejecutando consulta para obtener por ID: SELECT id, titulo, autor, editorial, anio_publicacion, id_tipo_documento FROM documentos WHERE id = ? con ID: 6
+2025-05-17 17:22:41 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.TipoDocumentoDAOImpl - Ejecutando consulta para obtener tipo documento por ID: SELECT id, tipo FROM tipo_documento WHERE id = ? con ID: 6
+2025-05-17 17:22:41 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.PrestamoDAOImpl - Ejecutando consulta: SELECT id, id_usuario, id_ejemplar, fecha_prestamo, fecha_devolucion, fecha_limite, mora FROM prestamos WHERE id_usuario = ? AND fecha_devolucion IS NULL AND fecha_limite < CURDATE() con parametro: 3
+2025-05-17 17:22:41 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.PoliticasPrestamosDAOImpl - Ejecutando consulta para obtener politica por ID tipo usuario: SELECT id_politica, id_tipo_usuario, max_ejemplares_prestamo, dias_prestamo_default FROM politicas_prestamo WHERE id_tipo_usuario = ? con idTipoUsuario: 3
+2025-05-17 17:22:41 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.usuario.impl.TipoUsuarioDAOImpl - Ejecutando consulta para obtener tipo usuario por ID: SELECT id, tipo FROM tipo_usuario WHERE id = ? con ID: 3
+2025-05-17 17:22:41 [AWT-EventQueue-0] INFO  bibliotecaudb.dao.biblioteca.impl.PrestamoDAOImpl - Ejecutando consulta para contar prestamos activos: SELECT COUNT(*) FROM prestamos WHERE id_usuario = ? AND fecha_devolucion IS NULL para idUsuario: 3
+2025-05-17 17:22:41 [AWT-EventQueue-0] ERROR bibliotecaudb.servicios.impl.BibliotecaServiceImpl - Rollback realizado (prestamo).
+bibliotecaudb.excepciones.BibliotecaException: El usuario Alumno1 ha alcanzado el limite de 2 prestamos activos.
+	at bibliotecaudb.servicios.impl.BibliotecaServiceImpl.realizarPrestamo(BibliotecaServiceImpl.java:214)
+	at bibliotecaudb.gui.Prestamos.btnRegistrarPrestamoActionPerformed(Prestamos.java:155)
+	at bibliotecaudb.gui.Prestamos$1.actionPerformed(Prestamos.java:85)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2025-05-17 17:22:41 [AWT-EventQueue-0] WARN  bibliotecaudb.gui.Prestamos - Error de negocio al realizar prestamo: El usuario Alumno1 ha alcanzado el limite de 2 prestamos activos.
+2025-05-17 17:23:04 [AWT-EventQueue-0] INFO  bibliotecaudb.gui.InicioDocente - Docente sandra@udb.com abriendo ventana de devoluciones.
+2025-05-17 17:23:43 [AWT-EventQueue-0] INFO  bibliotecaudb.gui.InicioDocente - Docente sandra@udb.com saliendo del panel de docente.
